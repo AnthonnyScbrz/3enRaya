@@ -1,5 +1,7 @@
 package output;
 
+import org.w3c.dom.ls.LSOutput;
+
 public class Output {
     public static void selectSlot(){
         System.out.println(" Ingrese la posición s jugar en el tablero: ");
@@ -22,4 +24,9 @@ public class Output {
                 *************************************************************************
                 """);
     }
+
+    public static void hola() {
+        System.out.println("Que tal llevas el 3 en raya?");
+    }
+
 }
